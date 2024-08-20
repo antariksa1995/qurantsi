@@ -3,7 +3,7 @@ import useTranslation from 'next-translate/useTranslation';
 import styles from './NavbarLogoWrapper.module.scss';
 
 import Link from '@/dls/Link/Link';
-import QuranTextLogo from '@/icons/logo-tsirwah.svg';
+import QuranTextLogo from '@/icons/tsirwah.svg';
 
 const NavbarLogoWrapper = () => {
   const { t } = useTranslation('common');
