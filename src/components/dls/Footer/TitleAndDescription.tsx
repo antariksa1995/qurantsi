@@ -8,11 +8,6 @@ import QuranTextLogo from '@/icons/logo-tsirwah.svg';
 import { logButtonClick } from '@/utils/eventLogger';
 
 const TitleAndDescription = () => {
-  const { t } = useTranslation('common');
-
-  const onHiringAnnouncementClicked = () => {
-    logButtonClick('footer_hiring_announcement');
-  };
 
   return (
     <div className={styles.titleAndDescriptionContainer}>
@@ -20,23 +15,6 @@ const TitleAndDescription = () => {
         <div className={styles.iconContainer}>
           <QuranTextLogo />
         </div>
-        <div className={styles.title}>{t('footer.title')}</div>
-      </div>
-      <p className={styles.description}>{t('footer.description')}</p>
-      <div className={styles.hiringAnnouncementContainer}>
-        <Trans
-          components={{
-            link: (
-              <Link
-                href="https://www.quran.foundation/careers"
-                variant={LinkVariant.Blend}
-                onClick={onHiringAnnouncementClicked}
-                isNewTab
-              />
-            ),
-          }}
-          i18nKey="common:footer.hiring"
-        />
       </div>
     </div>
   );
