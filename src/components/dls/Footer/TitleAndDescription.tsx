@@ -20,9 +20,9 @@ const TitleAndDescription = () => {
         <div className={styles.iconContainer}>
           <QuranTextLogo />
         </div>
-        <div className={styles.title}>{t}</div>
+        <div className={styles.title}>{t('footer.title')}</div>
       </div>
-      <p className={styles.description}>{t()}</p>
+      <p className={styles.description}>{t('footer.description')}</p>
       <div className={styles.hiringAnnouncementContainer}>
         <Trans
           components={{
