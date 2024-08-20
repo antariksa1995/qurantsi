@@ -20,6 +20,14 @@ const TitleAndDescription = () => {
         <div className={styles.iconContainer}>
           <QuranTextLogo />
         </div>
+        <div className={styles.title}>{t}</div>
+      </div>
+      <p className={styles.description}>{t()}</p>
+      <div className={styles.hiringAnnouncementContainer}>
+        <Trans
+          components={{ 
+          }}
+        />
       </div>
     </div>
   );
