@@ -9,9 +9,7 @@ import { logButtonClick } from '@/utils/eventLogger';
 const TitleAndDescription = () => {
   const { t } = useTranslation('common');
 
-  const onHiringAnnouncementClicked = () => {
-    logButtonClick('footer_hiring_announcement');
-  };
+
 
  return (
     <div className={styles.titleAndDescriptionContainer}>
