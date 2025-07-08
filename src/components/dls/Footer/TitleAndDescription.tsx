@@ -1,6 +1,3 @@
-import Trans from 'next-translate/Trans';
-import useTranslation from 'next-translate/useTranslation';
-
 import styles from './Footer.module.scss';
 
 import Link, { LinkVariant } from '@/dls/Link/Link';
