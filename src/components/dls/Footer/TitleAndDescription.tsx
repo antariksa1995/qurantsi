@@ -11,25 +11,4 @@ const TitleAndDescription = () => {
 
 
 
- return (
-    <div className={styles.titleAndDescriptionContainer}>
-      <div className={styles.headingContainer}>
-        <div className={styles.iconContainer}>
-          <QuranTextLogo />
-        </div>
-        <div className={styles.title}>{t('footer.title')}</div>
-      </div>
-      <p className={styles.description}>
-        <Trans
-          i18nKey="common:footer.description"
-          components={{
-            br: <br />,
-            link: <Link href="https://quran.foundation" variant={LinkVariant.Blend} isNewTab />,
-          }}
-        />
-      </p>
-    </div>
-  );
-};
-
 export default TitleAndDescription;
